@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Felhasználó név"
+        android:id="@+id/Edit_Text_reg_fhnev"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jelszó"
+        android:id="@+id/Edit_Text_reg_jelszo"
+        android:textAlignment="center"
+        android:inputType="numberPassword"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jelszó megerősítése"
+        android:id="@+id/Edit_Text_reg_jelszo_megerosites"
+        android:textAlignment="center"
+        android:inputType="numberPassword"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teljes neved"
+        android:id="@+id/Edit_Text_reg_telj_nev"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefonszám"
+        android:id="@+id/Edit_Text_reg_telszam"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regisztráció"
+        android:id="@+id/Button_reg_regisztracio"
+        />
+
+</LinearLayout>
